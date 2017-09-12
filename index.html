@@ -12,7 +12,9 @@
     }
 
     .node text {
-        font: 12px sans-serif;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 11pt;
+        font-weight: 500;
     }
 
     .link {
@@ -24,10 +26,12 @@
     div.tooltip {
         position: absolute;
         text-align: center;
-        width: 100px;
-        height: 125px;
+        width: 11%;
+        height: 35%;
         padding: 8px;
-        font: 12px sans-serif;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 11pt;
+        font-weight: 500;
         background: #ffff99;
         border: solid 1px #aaa;
         border-radius: 8px;
@@ -75,8 +79,8 @@
             <script>
 
                 var margin = {top: 20, right: 120, bottom: 20, left: 120},
-                    width = 1200//960 - margin.right - margin.left,
-                height = 1100// - margin.top - margin.bottom;
+                    width = 1000//960 - margin.right - margin.left,
+                height = 1300// - margin.top - margin.bottom;
 
                 var i = 0,
                     duration = 750,
@@ -126,7 +130,7 @@
                         links = tree.links(nodes);
 
                     // Normalize for fixed-depth.
-                    nodes.forEach(function(d) { d.y = d.depth * 250; }); //180
+                    nodes.forEach(function(d) { d.y = d.depth * 225; }); //180
 
                     // Update the nodes…
                     var node = svg.selectAll("g.node")
@@ -230,7 +234,7 @@
                 }
 
                 function mousemove(d) {
-                    div.text(d.deptno+"\nLevel 1: " + d.approval1+"\nLevel 2: "+d.approval2+ "\nLevel 3: " + d.approval3+"\nLevel 4: " + d.approval4+"\nLevel 5: "+d.approval5+ "\nLevel 6: "+ d.approval6+"\nLevel 7: " + d.approval7+"\nLevel 8: "+d.approval8)
+                    div.text(d.deptno+"\r\n" + "Level 1: " + d.approval1+"\r\n" + "Level 2: "+d.approval2+ "\r\n" + "Level 3: " + d.approval3+"\r\n" + "Level 4: " + d.approval4+"\r\n" + "Level 5: "+d.approval5+ "\r\n" + "Level 6: "+ d.approval6+"\r\n" + "Level 7: " + d.approval7+"\r\n" + "Level 8: "+d.approval8)
                         .style("left", (d3.event.pageX ) + "px")
                         .style("top", (d3.event.pageY) + "px");
                 }
