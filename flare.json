@@ -1,5 +1,5 @@
 {
-    "name": "General Manager",
+    "name": "Chief Operating Officer",
     "level": "4",
     "deptno": "100000",
     "approval1": "MRUNKEL",
@@ -142,49 +142,185 @@
                    "deptno": "264236"}
               ]},
              {"name" : "Light Rail",
-         "level" : "4",
-         "deptno": "235000",
-             "children":[
-                 {"name": "Green Line Chief"},
-                 {"name": "Green Line Transportation"},
-                 {"name": "Revenue Customer Service - GL"}
-             ]},
+              "level" : "4",
+              "deptno": "235000",
+              "children":[
+                  {"name": "Green Line Chief"},
+                  {"name": "Green Line Transportation"},
+                  {"name": "Revenue Customer Service - GL"}
+              ]},
              {"name" : "Everett Main Repair",
-         "level" : "4",
-         "deptno": "209000",
-             "children":[
-                 {"name": "Administration"},
-                 {"name": "Chief of Everett Shops"},
-                 {"name": "Everett Shops - Subway"},
-                 {"name": "Subway Quality"},
-                 {"name": "Everett Shops - Bus"},
-                 {"name": "Quality Assurance"}
-             ]},
+              "level" : "4",
+              "deptno": "209000",
+              "children":[
+                  {"name": "Administration"},
+                  {"name": "Chief of Everett Shops"},
+                  {"name": "Everett Shops - Subway"},
+                  {"name": "Subway Quality"},
+                  {"name": "Everett Shops - Bus"},
+                  {"name": "Quality Assurance"}
+              ]},
              {"name" : "OCC & Training",
-         "level" : "4",
-         "deptno": "238000",
-             "children":[
-                 {"name": "OCC & Training - Administration"},
-                 {"name": "OCC & Training - Subway"},
-                 {"name": "OCC & Training - Bus"},
-                 {"name": "OCC & Training - Cabot"},
-                 {"name": "OCC & Training - Riverside"}
-             ]},
+              "level" : "4",
+              "deptno": "238000",
+              "children":[
+                  {"name": "OCC & Training - Administration"},
+                  {"name": "OCC & Training - Subway"},
+                  {"name": "OCC & Training - Bus"},
+                  {"name": "OCC & Training - Cabot"},
+                  {"name": "OCC & Training - Riverside"}
+              ]},
              {"name" : "Rail Maintenance",
-         "level" : "4",
-         "deptno": "239000",
-             "children":[
-                 {"name": "Reservoir Maintenance"},
-                 {"name": "Mattapan Maintenance"},
-                 {"name": "Riverside Maintenance"},
-                 {"name": "Wellington Maintenance"},
-                 {"name": "Cabot Maintenance"},
-                 {"name": "Orient Heights Maintenance"}
-             ]}
+              "level" : "4",
+              "deptno": "239000",
+              "children":[
+                  {"name": "Reservoir Maintenance"},
+                  {"name": "Mattapan Maintenance"},
+                  {"name": "Riverside Maintenance"},
+                  {"name": "Wellington Maintenance"},
+                  {"name": "Cabot Maintenance"},
+                  {"name": "Orient Heights Maintenance"}
+              ]}
          ]},
-        {"name":"Office of Administration & COO"},
-        {"name":"Engineering & Maintenance"},
-        {"name":"Service Planning & Strategy"},
-        {"name":""}
+        {"name":"Office of Administration & COO",
+         "level" : "2",
+         "deptno": "X",
+         "children":[
+             {"name": "Operations Office of Administration",
+              "level": "4",
+              "deptno": "X",
+              "children":[{
+                  "name":"Operations Office of Administration",
+                  "level": "5",
+                  "deptno": "X"
+              }]},
+             {"name": "COO Administration & Staff",
+              "level": "4",
+              "deptno": "X",
+              "children":[{
+                  "name":"COO Administration & Staff",
+                  "level": "5",
+                  "deptno": "X"
+              }]}
+         ]},
+        {"name":"Engineering & Maintenance",
+         "level" : "2",
+         "deptno": "X",
+         "children":[
+             {"name" : "Vehicle Engineering",
+              "level" : "4",
+              "deptno": "X",
+              "children":[
+                  {"name":"Vehicle Engineering",
+                   "level": "5",
+                   "deptno":"X"}
+              ]},
+             {"name" : "Signals & Communications",
+              "level" : "4",
+              "deptno": "X",
+              "children": [
+                  {"name":"Administration",
+                   "level" : "5",
+                   "deptno": "X"},
+                  {"name":"Signals",
+                   "level" : "5",
+                   "deptno": "X"},
+                  {"name":"Communications",
+                   "level" : "5",
+                   "deptno": "X"}
+              ]},
+             {"name" : "Power Systems Maintenance",
+              "level" : "4",
+              "deptno": "X",
+              "children": [
+                  {"name":"Power Systems Maintenance",
+                   "level" : "5",
+                   "deptno": "X"},
+                  {"name":"Electrical Maintenance",
+                   "level" : "5",
+                   "deptno": "X"},
+                  {"name":"Transmission & Distribution",
+                   "level" : "5",
+                   "deptno": "X"}
+              ]},
+             {"name" : "Transit Facilities Maintenance",
+              "level" : "4",
+              "deptno": "X",
+              "children": [
+                  {"name":"Administration",
+                   "level" : "5",
+                   "deptno": "X"},
+                  {"name":"Building & Station Maintenance",
+                   "level" : "5",
+                   "deptno": "X"},
+                  {"name":"Mechanical Maintenance",
+                   "level" : "5",
+                   "deptno": "X"},
+                  {"name":"Bridges & Structures Maintenance",
+                   "level" : "5",
+                   "deptno": "X"}
+              ]},
+             {"name" : "Maintenance of Way",
+              "level" : "4",
+              "deptno": "X",
+              "children": [
+                  {"name":"Surface Light Rail",
+                   "level" : "5",
+                   "deptno": "X"},
+                  {"name":"MOW Rail Equipment",
+                   "level" : "5",
+                   "deptno": "X"},
+                  {"name":"Rapid Transit",
+                   "level" : "5",
+                   "deptno": "X"}
+              ]},
+             {"name" : "Asset Planning & Training",
+              "level" : "4",
+              "deptno": "X",
+              "children": [
+                  {"name":"Capital & Maintenance Planning/Scheduling",
+                   "level" : "5",
+                   "deptno": "X"},
+                  {"name":"Asset Management",
+                   "level" : "5",
+                   "deptno": "X"},
+                  {"name":"E & M Training",
+                   "level" : "5",
+                   "deptno": "X"}
+              ]}
+         ]},
+        {"name":"Service Planning & Strategy",
+         "level" : "4",
+         "deptno": "X",
+         "children": [
+             {"name":"Operation Planning & Scheduling",
+              "level" : "5",
+              "deptno": "X",
+              "children": [
+                  {"name":"Private Carrier",
+                   "level" : "5",
+                   "deptno": "X"},
+                  {"name":"Suburban Bus",
+                   "level" : "5",
+                   "deptno": "X"},
+                  {"name":"Passenger Services",
+                   "level" : "5",
+                   "deptno": "X"},
+                  {"name":"Service Planning",
+                   "level" : "5",
+                   "deptno": "X"},
+                  {"name":"Planning & Schedules",
+                   "level" : "5",
+                   "deptno": "X"}
+              ]}
+         ]},
+        {"name":"Security",
+         "level" : "4",
+         "deptno": "X",
+         "children": [
+             {"name":"Security Department",
+              "level" : "5",
+              "deptno": "X"}
+         ]}
     ] 
 }
