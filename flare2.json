@@ -1,0 +1,350 @@
+{
+    "name": "Chief Administrator",
+    "level": "4",
+    "deptno": "X",
+    "children": [
+        {"name": "Office of the Chief Administrator",
+         "level": "3",
+         "deptno": "X",
+         "children":[
+             {"name": "System-wide Accessibility",
+              "level": "4",
+              "deptno":"X"
+             },
+             {"name": "Law",
+              "level": "4",
+              "deptno":"X"
+             },
+             {"name": "Public Affairs",
+              "level": "4",
+              "deptno":"X"
+             },
+             {"name": "Weather Costs",
+              "level": "4",
+              "deptno":"X"
+             },
+             {"name": "Real Estate",
+              "level": "4",
+              "deptno":"X",
+              "children":[
+                  {"name": "Real Estate Administration",
+                   "level": "5",
+                   "deptno":"X"
+                  },
+                  {"name": "Facilities Maintenance",
+                   "level": "5",
+                   "deptno":"X"
+                  }
+              ]
+             },{"name": "Diversity & Civil Rights",
+                "level": "4",
+                "deptno":"X",
+                "children":[
+                    {"name": "EEO/AA Administration",
+                     "level": "5",
+                     "deptno":"X"
+                    },
+                    {"name": "Disadvantaged Business Enterprise",
+                     "level": "5",
+                     "deptno":"X"
+                    },
+                    {"name": "EEO/AA Contract Administration",
+                     "level": "5",
+                     "deptno":"X"
+                    },
+                    {"name": "Training",
+                     "level": "5",
+                     "deptno":"X"
+                    }
+                ]
+               },
+             {"name": "Consumer Tech Department",
+              "level": "4",
+              "deptno":"X",
+              "children": [
+                  {"name": "Revenue Maintenance Everett",
+                   "level": "5",
+                   "deptno":"X"
+                  },
+                  {"name": "Non-AFC",
+                   "level": "5",
+                   "deptno":"X"
+                  },
+                  {"name": "AFC 2.0",
+                   "level": "5",
+                   "deptno":"X"
+                  },
+                  {"name": "AFC 1.0",
+                   "level": "5",
+                   "deptno":"X"
+                  },
+                  {"name": "Revenue Maintenance Charlestown",
+                   "level": "5",
+                   "deptno":"X"
+                  },
+                  {"name": "Revenue Audit",
+                   "level": "5",
+                   "deptno":"X"
+                  },
+                  {"name": "Revenue Maintenance AFC",
+                   "level": "5",
+                   "deptno":"X"
+                  }
+              ]
+             },
+             {"name": "OPM",
+              "level": "4",
+              "deptno":"X"
+             },
+             {"name": "General Manager",
+              "level": "4",
+              "deptno":"X"
+             },
+             {"name": "Labor Relations",
+              "level": "4",
+              "deptno":"X"
+             },
+             {"name": "Safety",
+              "level": "4",
+              "deptno":"X"
+             },
+             {"name": "Police",
+              "level": "4",
+              "deptno":"X"
+             },
+             {"name": "Environmental Affairs",
+              "level": "4",
+              "deptno":"X",
+              "children":[{"name": "Utilities",
+                           "level": "5",
+                           "deptno":"X"
+                          }]
+             },
+             {"name": "Customer Experience",
+              "level": "4",
+              "deptno":"X",
+              "children":[{"name": "Charlie Store",
+                           "level": "4",
+                           "deptno":"X"
+                          },
+                          {"name": "Customer Expeience Div Marketing",
+                           "level": "5",
+                           "deptno":"X"
+                          },
+                          {"name": "Customer Service Center",
+                           "level": "5",
+                           "deptno":"X"
+                          }]
+             },
+             {"name": "ITD",
+              "level": "4",
+              "deptno":"X",
+              "children": [
+                  {"name": "ITD Enterprise",
+                   "level": "5",
+                   "deptno":"X"
+                  },
+                  {"name": "ITD Development",
+                   "level": "5",
+                   "deptno":"X"
+                  }
+              ]
+             },
+             {"name": "Capital Project Oversight",
+              "level": "4",
+              "deptno":"X",
+              "children":[{"name": "Captial Project Oversight PP",
+                           "level": "5",
+                           "deptno":"X"
+                          },
+                          {"name": "Capital Project Oversight Summer",
+                           "level": "5",
+                           "deptno":"X"
+                          },
+                          {"name": "Capital Project Eng Oversight",
+                           "level": "5",
+                           "deptno":"X"
+                          }]
+             },
+             {"name": "Capital Delivery",
+              "level": "4",
+              "deptno":"X"
+             },
+             {"name": "Office of Transportation Access",
+              "level": "4",
+              "deptno":"X"
+             }
+         ]},
+        {"name": "CFO",
+         "level": "2",
+         "deptno":"X",
+         "children": [
+             {"name": "Office of the CFO",
+                         "level": "4",
+                         "deptno":"X",
+              "children":[{"name": "Cash Collection",
+                         "level": "5",
+                         "deptno":"X"
+                        },
+                         {"name": "FMCB",
+                         "level": "5",
+                         "deptno":"X"
+                        }]
+                        },
+             {"name": "Budget",
+                         "level": "4",
+                         "deptno":"X",
+              "children":[{"name": "Administration",
+                         "level": "5",
+                         "deptno":"X"
+                        },{"name": "Operating",
+                         "level": "5",
+                         "deptno":"X"
+                        },{"name": "Capital",
+                         "level": "5",
+                         "deptno":"X"
+                        }]
+                        },
+             {"name": "Treasurer",
+                         "level": "4",
+                         "deptno":"X",
+              "children":[{"name": "Administration",
+                         "level": "5",
+                         "deptno":"X"
+                        },
+                         {"name": "Accounts Payable",
+                         "level": "5",
+                         "deptno":"X"
+                        },
+                         {"name": "Accounting",
+                         "level": "5",
+                         "deptno":"X"
+                        },{"name": "Payroll",
+                         "level": "5",
+                         "deptno":"X"
+                        },
+                         {"name": "Capital Reporting",
+                         "level": "5",
+                         "deptno":"X"
+                        },
+                         {"name": "Cash Management",
+                         "level": "5",
+                         "deptno":"X"
+                        },
+                         {"name": "Insurance",
+                         "level": "5",
+                         "deptno":"X"
+                        },
+                         {"name": "Balance Sheet",
+                         "level": "5",
+                         "deptno":"X"
+                        }]
+                        },
+             {"name": "Vendor Management",
+                         "level": "4",
+                         "deptno":"X",
+              "children":[{"name": "Vendor Management",
+                         "level": "5",
+                         "deptno":"X"
+                        },{"name": "Money Room",
+                         "level": "5",
+                         "deptno":"X"
+                        }]
+                        },
+             {"name": "General Activities",
+                         "level": "4",
+                         "deptno":"X",
+              "children":[{"name": "Administration",
+                         "level": "5",
+                         "deptno":"X"
+                        }]
+                        },
+             {"name": "Own Source Revenue",
+                         "level": "4",
+                         "deptno":"X",
+              "children": [{"name": "Own Source Revenue",
+                         "level": "5",
+                         "deptno":"X"
+                        }]
+                        },
+             {"name": "Interagency",
+                         "level": "4",
+                         "deptno":"X",
+              "children":[{"name": "Interagency",
+                         "level": "5",
+                         "deptno":"X"
+                        }]
+                        }
+         ]
+        },
+        {"name": "Human Resources & Occupational Health Services",
+                         "level": "4",
+                         "deptno":"X",
+         "children":[{"name": "Health and Welfare Fund",
+                         "level": "5",
+                         "deptno":"X",
+                      "children": [{"name": "Health and Welfare Fund",
+                         "level": "4",
+                         "deptno":"X"
+                        }]
+                        },
+                    {"name": "Human Resources",
+                         "level": "4",
+                         "deptno":"X",
+                     "children": [{"name": "Employment and Training",
+                         "level": "5",
+                         "deptno":"X"
+                        },{"name": "Benefits and Comp",
+                         "level": "5",
+                         "deptno":"X"
+                        }]
+                        },
+                    {"name": "MassDOT U/Employee Relations",
+                         "level": "4",
+                         "deptno":"X",
+                     "children":[{"name": "MassDOT U/Employee Relations",
+                         "level": "5",
+                         "deptno":"X"
+                        }]
+                        },
+                    {"name": "Occupational Health Services",
+                         "level": "4",
+                         "deptno":"X",
+                     "children": [{"name": "Worker's Compensation",
+                         "level": "5",
+                         "deptno":"X"
+                        },{"name": "Medical Operations",
+                         "level": "5",
+                         "deptno":"X"
+                        },{"name": "Employee Counseling/Welness",
+                         "level": "5",
+                         "deptno":"X"
+                        }]
+                        }]
+                        },
+        {"name": "Procurement and Logistics",
+                         "level": "2",
+                         "deptno":"X",
+         "children":[{"name": "Procurement and Logistics",
+                         "level": "4",
+                         "deptno":"X",
+                      "children": [{"name": "Administration",
+                         "level": "5",
+                         "deptno":"X"
+                        },{"name": "Inventory",
+                         "level": "5",
+                         "deptno":"X"
+                        },{"name": "Non-Inventory",
+                         "level": "5",
+                         "deptno":"X"
+                        },{"name": "Store 10PP",
+                         "level": "5",
+                         "deptno":"X"
+                        }]
+                        }]
+                        },
+        {"name": "Commuter Rail/Boat",
+                         "level": "4",
+                         "deptno":"X"
+                        }
+    ]}

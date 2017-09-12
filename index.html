@@ -37,6 +37,18 @@
 </style>
 <body>
     <script src="//d3js.org/d3.v3.min.js"></script>
+    <div id="option">
+    <input name="updateButton" 
+           type="button" 
+           value="View Operating" 
+           onclick="updateData()" />
+        <script src="//d3js.org/d3.v3.min.js"></script>
+    <div id="option">
+    <input name="updateButton" 
+           type="button" 
+           value="View Administration" 
+           onclick="updateData2()" />
+</div>
     <script>
 
         var margin = {top: 20, right: 120, bottom: 20, left: 120},
@@ -63,7 +75,7 @@
         .attr("class", "tooltip")
         .style("opacity", 1e-6);
 
-        d3.json("flare.json", function(error, flare) {
+        d3.json("flare2.json", function(error, flare) {
             if (error) throw error;
 
             root = flare;
@@ -205,5 +217,47 @@
             div.transition()
                 .duration(300)
                 .style("opacity", 1e-6);
+        }
+        function updateData(){
+            d3.json("flare.json", function(error, flare) {
+            if (error) throw error;
+
+            root = flare;
+            root.x0 = height / 2;
+            root.y0 = 0;
+
+            function collapse(d) {
+                if (d.children) {
+                    d._children = d.children;
+                    d._children.forEach(collapse);
+                    d.children = null;
+                }
+            }
+
+            //root.children.forEach(collapse);
+            update(root);
+        });
+            
+        }
+        function updateData2(){
+            d3.json("flare2.json", function(error, flare) {
+            if (error) throw error;
+
+            root = flare;
+            root.x0 = height / 2;
+            root.y0 = 0;
+
+            function collapse(d) {
+                if (d.children) {
+                    d._children = d.children;
+                    d._children.forEach(collapse);
+                    d.children = null;
+                }
+            }
+
+            //root.children.forEach(collapse);
+            update(root);
+        });
+            
         }
     </script>
