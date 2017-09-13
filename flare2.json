@@ -140,7 +140,7 @@
                   }
               ]
              },
-             {"name": "OPM",
+             {"name": "OPMI",
               "level": "4",
               "deptno":"620000",
               "approval1": "RBAIN LPAGETSEEKINS",
@@ -280,7 +280,7 @@
              }
          ]},
         {"name": "CFO",
-         "level": "2",
+         "level": "4",
          "deptno":"640000",
          "approval1": "MRUNKEL",
          "approval2": "MRUNKEL",
@@ -494,7 +494,7 @@
                      }]
         },
         {"name": "Procurement and Logistics",
-         "level": "2",
+         "level": "4",
          "deptno":"X",
          "children":[{"name": "Procurement and Logistics",
                       "level": "4",
