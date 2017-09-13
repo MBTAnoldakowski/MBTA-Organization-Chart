@@ -174,7 +174,7 @@
              },
              {"name": "Police",
               "level": "4",
-              "deptno":"X"
+              "deptno":"120000"
              },
              {"name": "Environmental Affairs",
               "level": "4",
@@ -189,7 +189,7 @@
               "approval8": "SPOFTAK",
               "children":[{"name": "Utilities",
                            "level": "5",
-                           "deptno":"X"
+                           "deptno":"182005"
                           }]
              },
              {"name": "Customer Experience",
@@ -519,7 +519,7 @@
                                         "deptno":"426002"
                                        },{"name": "Store 10PP",
                                           "level": "5",
-                                          "deptno":"X"
+                                          "deptno":"443002"
                                          }]
                      }]
         },
