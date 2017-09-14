@@ -23,7 +23,7 @@
 div.tooltip {
     position: absolute;
     text-align: center;
-    width: 11%;
+    width: auto;
     height: auto;
     padding: 8px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -47,14 +47,16 @@ div.tooltip {
 }
 #legend {
     position: fixed;
-    width: 10%;
+    width: 12%;
     height: auto; 
     top:0;
     left:0;
-    background-color: aliceblue;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 11pt;
     font-weight: 700;
+}
+#ltitle {
+    margin-left: 10%;
 }
 #level2circle {
     width: 15px;
@@ -63,7 +65,7 @@ div.tooltip {
     -moz-border-radius: 25px;
     border-radius: 25px;
     background: #7058fc;
-    margin-left: 10px;
+    margin-left: 25px;
     margin-right: 10px;
     float: left;
 }
@@ -74,7 +76,7 @@ div.tooltip {
     -moz-border-radius: 25px;
     border-radius: 25px;
     background: #ff0000;
-    margin-left: 10px;
+    margin-left: 25px;
     margin-right: 10px;
     float: left;
 }
@@ -85,7 +87,7 @@ div.tooltip {
     -moz-border-radius: 25px;
     border-radius: 25px;
     background: #ff8356;
-    margin-left: 10px;
+    margin-left: 25px;
     margin-right: 10px;
     float: left;
 }
@@ -96,7 +98,7 @@ div.tooltip {
     -moz-border-radius: 25px;
     border-radius: 25px;
     background: #ffcd44;
-    margin-left: 10px;
+    margin-left: 25px;
     margin-right: 10px;
     float: left;
 }
@@ -107,7 +109,7 @@ div.tooltip {
     -moz-border-radius: 25px;
     border-radius: 25px;
     background: #ffedb2;
-    margin-left: 10px;
+    margin-left: 25px;
     margin-right: 10px;
     float: left;
 }
