@@ -30,9 +30,7 @@
                "level":"4",
                "deptno":"221000",
                "children":[
-                   {"name":"",
-                   "level":"",
-                   "children":[
+                   
                   {
                      "name":"Chief Mechanical Officer - Water Street",
                      "level":"5",
@@ -102,16 +100,13 @@
                      "level":"5",
                      "deptno":"225039"
                   }
-               ]}]
-            },
+               ]},
             {
                "name":"Bus Transportation",
                "level":"4",
                "deptno":"224000",
                "children":[
-                   {"name":"",
-                   "level":"",
-                   "children":[
+                   
                   {
                      "name":"Administration",
                      "level":"5",
@@ -156,7 +151,7 @@
                      "name":"Southampton (Silver Line)",
                      "level":"5",
                      "deptno":"228339"
-                  }]}
+                  }
                ]
             }
          ]
@@ -180,9 +175,7 @@
                "approval7":"MABRAMO",
                "approval8":"SPOFTAK",
                "children":[
-                   {"name":"",
-                   "level":"",
-                   "children":[
+                   
                   {
                      "name":"Administration",
                      "level":"5",
@@ -217,7 +210,7 @@
                      "name":"Red Line JFK/UMass Station",
                      "level":"5",
                      "deptno":"233155"
-                  }]}
+                  }
                ]
             },
             {
@@ -232,14 +225,12 @@
                "approval6":"JGONNEVILLE",
                "approval7":"MABRAMO",
                "approval8":"SPOFTAK",
-               "children":[{"name":"",
-                   "level":"",
-                   "children":[
+               "children":[
                   {
                      "name":"Vehicle Engineering",
                      "level":"5",
                      "deptno":"204008"
-                  }]}
+                  }
                ]
             },
             {
@@ -255,9 +246,7 @@
                "approval7":"MABRAMO",
                "approval8":"SPOFTAK",
                "children":[
-                   {"name":"",
-                   "level":"",
-                   "children":[
+                   
                   {
                      "name":"Administration",
                      "level":"5",
@@ -272,7 +261,7 @@
                      "name":"Communications",
                      "level":"5",
                      "deptno":"192005"
-                  }]}
+                  }
                ]
             },
         
@@ -289,9 +278,7 @@
                "approval7":"MABRAMO",
                "approval8":"SPOFTAK",
                "children":[
-                   {"name":"",
-                   "level":"",
-                   "children":[
+                   
                   {
                      "name":"Surface Light Rail",
                      "level":"5",
@@ -306,7 +293,7 @@
                      "name":"Rapid Transit",
                      "level":"5",
                      "deptno":"152005"
-                  }]}
+                  }
                ]
             },{
                "name":"Power Systems Maintenance",
@@ -321,9 +308,7 @@
                "approval7":"MABRAMO",
                "approval8":"SPOFTAK",
                "children":[
-                   {"name":"",
-                   "level":"",
-                   "children":[
+                   
                   {
                      "name":"Power Systems Maintenance",
                      "level":"5",
@@ -338,7 +323,7 @@
                      "name":"Transmission & Distribution",
                      "level":"5",
                      "deptno":"196005"
-                  }]}
+                  }
                ]
             },
             {
@@ -354,9 +339,7 @@
                "approval7":"MABRAMO",
                "approval8":"SPOFTAK",
                "children":[
-                   {"name":"",
-                   "level":"",
-                   "children":[
+                   
                   {
                      "name":"Capital & Maintenance Planning/Scheduling",
                      "level":"5",
@@ -371,15 +354,13 @@
                      "name":"E & M Training",
                      "level":"5",
                      "deptno":"253005"
-                  }]}
+                  }
                ]
             },
              {"name":"",
              "level":"",
              "children":[
-                 {"name":"",
-                   "level":"",
-                   "children":[
+                 
             {
                "name":"Systems Engineering Support QA",
                "level":"5",
@@ -394,18 +375,25 @@
                "name":"Systems Engineering Support High Street",
                "level":"5",
                "deptno":"237008"
-            }]}]}
+            }]}
          ]
       },
        {"name":"",
        "level":"",
        "children":[
        {
-         "name":"Office of Administration & COO",
+         "name":"Chief Operating Officer",
          "level":"4",
          "deptno":"205000",
          "children":[
             {
+               "name":"Chief Operating Officer",
+               "level":"5",
+               "deptno":"206008"
+            }
+         ]
+      },
+           {
                "name":"Operations Office of Administration",
                "level":"4",
                "deptno":"208000",
@@ -417,14 +405,25 @@
                   }
                ]
             },
-             {"name":"",
-             "level":"",
-             "children":[
+           {
+         "name":"Security",
+         "level":"4",
+         "deptno":"280000",
+         "approval1":"RCREEDON",
+         "approval2":"RCREEDON",
+         "approval3":"RCREEDON",
+         "approval4":"RCREEDON",
+         "approval5":"MABRAMO",
+         "approval6":"MABRAMO",
+         "approval7":"MABRAMO",
+         "approval8":"SPOFTAK",
+         "children":[
+             
             {
-               "name":"Chief Operating Officer",
+               "name":"Security Department",
                "level":"5",
-               "deptno":"206008"
-            }]}
+               "deptno":"282008"
+            }
          ]
       },
       {
@@ -440,9 +439,7 @@
          "approval7":"MABRAMO",
          "approval8":"SPOFTAK",
          "children":[
-             {"name":"",
-             "level":"",
-             "children":[
+             
             {
                "name":"Suburban Bus",
                "level":"5",
@@ -473,34 +470,12 @@
                "level":"5",
                "deptno":"273008"
             }
-         ]}]
-      },
-      {
-         "name":"Security",
-         "level":"4",
-         "deptno":"280000",
-         "approval1":"RCREEDON",
-         "approval2":"RCREEDON",
-         "approval3":"RCREEDON",
-         "approval4":"RCREEDON",
-         "approval5":"MABRAMO",
-         "approval6":"MABRAMO",
-         "approval7":"MABRAMO",
-         "approval8":"SPOFTAK",
-         "children":[
-             {"name":"",
-             "level":"",
-             "children":[
-            {
-               "name":"Security Department",
-               "level":"5",
-               "deptno":"282008"
-            }]}
          ]
-      },
-      {
+      }
+      ]},
+       {
          "name":"Rail Operations",
-         "level":"4",
+         "level":"3",
          "deptno":"210000",
          "approval1":"JCARREGA KAUBUCHON MLANNIN",
          "approval2":"MLANNIN",
@@ -695,6 +670,6 @@
                ]
             }
          ]
-      }]}
+      }
    ]
 }
