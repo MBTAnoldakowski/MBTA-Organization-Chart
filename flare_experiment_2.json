@@ -505,6 +505,39 @@
                  ]
              },
              {
+                 "name":"ITD",
+                 "level":"4",
+                 "deptno":"430000",
+                 "approval1":"DMETRAUX KSILVA SGROFF",
+                 "approval2":"DMETRAUX KSILVA SGROFF",
+                 "approval3":"DMETRAUX KSILVA SGROFF",
+                 "approval4":"GFOSTER",
+                 "approval5":"GFOSTER",
+                 "approval6":"GFOSTER",
+                 "approval7":"MABRAMO",
+                 "approval8":"SPOFTAK",
+                 "children":[
+                     {"name":"",
+                "level":"",
+                "children":[
+                     {
+                         "name":"ITD Enterprise",
+                         "level":"5",
+                         "deptno":"434002"
+                     },
+                     {
+                         "name":"ITD",
+                         "level":"5",
+                         "deptno":"433002"
+                     },
+                     {
+                         "name":"ITD Development",
+                         "level":"5",
+                         "deptno":"435002"
+                     }]}
+                 ]
+             },
+             {
                  "name":"Environmental Affairs",
                  "level":"4",
                  "deptno":"155000",
@@ -566,39 +599,6 @@
                  ]
              },
              {
-                 "name":"ITD",
-                 "level":"4",
-                 "deptno":"430000",
-                 "approval1":"DMETRAUX KSILVA SGROFF",
-                 "approval2":"DMETRAUX KSILVA SGROFF",
-                 "approval3":"DMETRAUX KSILVA SGROFF",
-                 "approval4":"GFOSTER",
-                 "approval5":"GFOSTER",
-                 "approval6":"GFOSTER",
-                 "approval7":"MABRAMO",
-                 "approval8":"SPOFTAK",
-                 "children":[
-                     {"name":"",
-                "level":"",
-                "children":[
-                     {
-                         "name":"ITD Enterprise",
-                         "level":"5",
-                         "deptno":"434002"
-                     },
-                     {
-                         "name":"ITD",
-                         "level":"5",
-                         "deptno":"433002"
-                     },
-                     {
-                         "name":"ITD Development",
-                         "level":"5",
-                         "deptno":"435002"
-                     }]}
-                 ]
-             },
-             {
                  "name":"Capital Project Oversight",
                  "level":"4",
                  "deptno":"320000",
@@ -607,17 +607,17 @@
                 "level":"",
                 "children":[
                      {
-                         "name":"Captial Project Oversight PP",
+                         "name":"Capital Project Oversight PP",
                          "level":"5",
                          "deptno":"322002"
                      },
                      {
-                         "name":"Captial Project Oversight SoSt",
+                         "name":"Capital Project Oversight SoSt",
                          "level":"5",
                          "deptno":"3222280"
                      },
                      {
-                         "name":"Captial Project Oversight SuSt",
+                         "name":"Capital Project Oversight SuSt",
                          "level":"5",
                          "deptno":"322124"
                      }]}

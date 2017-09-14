@@ -113,7 +113,7 @@
                 .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
 
                 nodeUpdate.select("circle")
-                    .attr("r", 4.5)
+                    .attr("r", 6)
                     .style("fill", function(d) { if(d.level == "2") return "red";
                                                 if(d.level == "3") return "orange";
                                                 if(d.level == "4") return "green";
@@ -122,7 +122,7 @@
                                                 if(d.name == "") return "#ffffff";
                                                })
                 .style("opacity", function(d){
-                    if(d.name == ""){
+                    if(d.level == ""){
                         return 0;
                     }
                 }) ;
