@@ -13,7 +13,7 @@
         <div id="option">
             
             <h1>MBTA Organization Chart</h1>
-            <p>Last Updated: 9/14/2017 10:40am</p>
+            <p>Last Updated: 9/14/2017 11:09am</p>
              <input name="updateButton" 
                    type="button" 
                    class = "btn"
@@ -30,7 +30,7 @@
         <div id = "chart"></div>
         <script>
 
-            var margin = {top: 20, right: 200, bottom: 20, left: 200},
+            var margin = {top: 20, right: 150, bottom: 20, left: 200},
                 width = 1000//960 - margin.right - margin.left,
             height = 1300// - margin.top - margin.bottom;
 
@@ -194,7 +194,7 @@
                     .style("top", (d3.event.pageY) + "px");
                 }
                 else{
-                    div.html(d.deptno)
+                    div.html(d.deptno+"<br/> Approves at a higher level")
                     .style("left", (d3.event.pageX ) + "px")
                     .style("top", (d3.event.pageY) + "px");
                 }
@@ -250,6 +250,7 @@
         </script>
         <div id = "legend">
             <h3 id = "ltitle">Legend</h3>
+            <div id = "level1circle"></div> <p>Level 1 is MBTA</p>
             <div id = "level2circle"></div> <p>Level 2</p>
             <div id = "level3circle"></div> <p>Level 3</p>
             <div id = "level4circle"></div> <p>Level 4</p>
