@@ -432,21 +432,6 @@
                ]
             },
             {
-               "name":"Systems Engineering Support High Street",
-               "level":"5",
-               "deptno":"237008"
-            },
-            {
-               "name":"Systems Engineering Support Everett",
-               "level":"5",
-               "deptno":"237107"
-            },
-            {
-               "name":"Systems Engineering Support QA",
-               "level":"5",
-               "deptno":"237111"
-            },
-            {
                "name":"Power Systems Maintenance",
                "level":"4",
                "deptno":"674000",
@@ -585,6 +570,21 @@
                      "deptno":"253005"
                   }
                ]
+            },
+            {
+               "name":"Systems Engineering Support QA",
+               "level":"5",
+               "deptno":"237111"
+            },
+            {
+               "name":"Systems Engineering Support Everett",
+               "level":"5",
+               "deptno":"237107"
+            },
+            {
+               "name":"Systems Engineering Support High Street",
+               "level":"5",
+               "deptno":"237008"
             }
          ]
       },

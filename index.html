@@ -103,7 +103,7 @@
                 .attr("class", "tooltip")
                 .style("opacity", 1e-6);
 
-                d3.json("flare2.json", function(error, flare) {
+                d3.json("flare_experiment_2.json", function(error, flare) {
                     if (error) throw error;
 
                     root = flare;
@@ -235,9 +235,10 @@
                 }
 
                 function mousemove(d) {
-                    div.text(d.deptno+"\r\n" + "Level 1: " + d.approval1+"\r\n" + "Level 2: "+d.approval2+ "\r\n" + "Level 3: " + d.approval3+"\r\n" + "Level 4: " + d.approval4+"\r\n" + "Level 5: "+d.approval5+ "\r\n" + "Level 6: "+ d.approval6+"\r\n" + "Level 7: " + d.approval7+"\r\n" + "Level 8: "+d.approval8)
+                    div.text(d.deptno)
                         .style("left", (d3.event.pageX ) + "px")
                         .style("top", (d3.event.pageY) + "px");
+                    div.append(d.approval1)
                 }
 
                 function mouseout() {

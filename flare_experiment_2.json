@@ -12,6 +12,210 @@
    "approval8":"SPOFTAK",
    "children":[
       {
+         "name":"Chief Financial Officer",
+         "level":"4",
+         "deptno":"640000",
+         "approval1":"MRUNKEL",
+         "approval2":"MRUNKEL",
+         "approval3":"MRUNKEL",
+         "approval4":"MRUNKEL",
+         "approval5":"MABRAMO",
+         "approval6":"MABRAMO",
+         "approval7":"MABRAMO",
+         "approval8":"SPOFTAK",
+         "children":[
+            {
+               "name":"Cash Collection",
+               "level":"5",
+               "deptno":"642002"
+            },
+            {
+               "name":"FMCB",
+               "level":"5",
+               "deptno":"643002"
+            },
+            {
+               "name":"Chief Financial Officer",
+               "level":"5",
+               "deptno":"641002"
+            },
+            {
+               "name":"Budget",
+               "level":"4",
+               "deptno":"630000",
+               "approval1":"MRUNKEL",
+               "approval2":"MRUNKEL",
+               "approval3":"MRUNKEL",
+               "approval4":"MRUNKEL",
+               "approval5":"MABRAMO",
+               "approval6":"MABRAMO",
+               "approval7":"MABRAMO",
+               "approval8":"SPOFTAK",
+               "children":[
+                  {
+                     "name":"Administration",
+                     "level":"5",
+                     "deptno":"631002"
+                  },
+                  {
+                     "name":"Operating",
+                     "level":"5",
+                     "deptno":"632002"
+                  },
+                  {
+                     "name":"Capital",
+                     "level":"5",
+                     "deptno":"633002"
+                  }
+               ]
+            },
+            {
+               "name":"Treasurer",
+               "level":"4",
+               "deptno":"805000",
+               "approval1":"PBRANDLEY",
+               "approval2":"PBRANDLEY",
+               "approval3":"PBRANDLEY",
+               "approval4":"PBRANDLEY NEASLEY",
+               "approval5":"MABRAMO",
+               "approval6":"MABRAMO",
+               "approval7":"MABRAMO",
+               "approval8":"SPOFTAK",
+               "children":[
+                  {
+                     "name":"Administration",
+                     "level":"6",
+                     "deptno":"811002"
+                  },
+                  {
+                     "name":"Accounts Payable",
+                     "level":"6",
+                     "deptno":"821002"
+                  },
+                  {
+                     "name":"Accounting",
+                     "level":"6",
+                     "deptno":"822002"
+                  },
+                  {
+                     "name":"Payroll",
+                     "level":"6",
+                     "deptno":"823002"
+                  },
+                  {
+                     "name":"Finance Capital",
+                     "level":"6",
+                     "deptno":"832002"
+                  },
+                  {
+                     "name":"Finance Cash",
+                     "level":"6",
+                     "deptno":"833002"
+                  },
+                  {
+                     "name":"Finance Insurance",
+                     "level":"6",
+                     "deptno":"834002"
+                  },
+                  {
+                     "name":"Controller",
+                     "level":"5",
+                     "deptno":"805202"
+                  },
+                  {
+                     "name":"Balance Sheet",
+                     "level":"5",
+                     "deptno":"841002"
+                  },
+                  {
+                     "name":"Treasurer",
+                     "level":"5",
+                     "deptno":"805302"
+                  }
+               ]
+            },
+            {
+               "name":"Vendor Management",
+               "level":"4",
+               "deptno":"804000",
+               "children":[
+                  {
+                     "name":"Vendor Management",
+                     "level":"5",
+                     "deptno":"805402"
+                  },
+                  {
+                     "name":"Money Room",
+                     "level":"5",
+                     "deptno":"262077"
+                  }
+               ]
+            },
+            {
+               "name":"General Activities",
+               "level":"4",
+               "deptno":"860000",
+               "approval1":"MRUNKEL",
+               "approval2":"MRUNKEL",
+               "approval3":"MRUNKEL",
+               "approval4":"MRUNKEL",
+               "approval5":"MABRAMO",
+               "approval6":"MABRAMO",
+               "approval7":"MABRAMO",
+               "approval8":"SPOFTAK",
+               "children":[
+                  {
+                     "name":"General Activities",
+                     "level":"5",
+                     "deptno":"861002"
+                  },
+                  {
+                     "name":"General Activities Everett Mn",
+                     "level":"5",
+                     "deptno":"861107"
+                  },
+                  {
+                     "name":"General Activities Everett Str",
+                     "level":"5",
+                     "deptno":"861108"
+                  }
+               ]
+            },
+            {
+               "name":"Own Source Revenue",
+               "level":"4",
+               "deptno":"172000",
+               "approval1":"EMROWE",
+               "approval2":"EMROWE",
+               "approval3":"EMROWE",
+               "approval4":"EMROWE",
+               "approval5":"EMROWE",
+               "approval6":"EMROWE",
+               "approval7":"MABRAMO",
+               "approval8":"SPOFTAK",
+               "children":[
+                  {
+                     "name":"Own Source Revenue",
+                     "level":"5",
+                     "deptno":"172002"
+                  }
+               ]
+            },
+            {
+               "name":"Interagency",
+               "level":"4",
+               "deptno":"170000",
+               "children":[
+                  {
+                     "name":"Interagency",
+                     "level":"5",
+                     "deptno":"171002"
+                  }
+               ]
+            }
+         ]
+      },
+      {
          "name":"System-wide Accessibility",
          "level":"4",
          "deptno":"102000",
@@ -391,215 +595,7 @@
             }
          ]
       },
-      {
-         "name":"Chief Financial Officer",
-         "level":"4",
-         "deptno":"640000",
-         "approval1":"MRUNKEL",
-         "approval2":"MRUNKEL",
-         "approval3":"MRUNKEL",
-         "approval4":"MRUNKEL",
-         "approval5":"MABRAMO",
-         "approval6":"MABRAMO",
-         "approval7":"MABRAMO",
-         "approval8":"SPOFTAK",
-         "children":[
-            {
-               "name":"Cash Collection",
-               "level":"5",
-               "deptno":"642002"
-            },
-            {
-               "name":"FMCB",
-               "level":"5",
-               "deptno":"643002"
-            },
-            {
-               "name":"Chief Financial Officer",
-               "level":"5",
-               "deptno":"641002"
-            },
-            {
-               "name":"Budget",
-               "level":"4",
-               "deptno":"630000",
-               "approval1":"MRUNKEL",
-               "approval2":"MRUNKEL",
-               "approval3":"MRUNKEL",
-               "approval4":"MRUNKEL",
-               "approval5":"MABRAMO",
-               "approval6":"MABRAMO",
-               "approval7":"MABRAMO",
-               "approval8":"SPOFTAK",
-               "children":[
-                  {
-                     "name":"Administration",
-                     "level":"5",
-                     "deptno":"631002"
-                  },
-                  {
-                     "name":"Operating",
-                     "level":"5",
-                     "deptno":"632002"
-                  },
-                  {
-                     "name":"Capital",
-                     "level":"5",
-                     "deptno":"633002"
-                  }
-               ]
-            },
-            {
-               "name":"Treasurer",
-               "level":"4",
-               "deptno":"805000",
-               "approval1":"PBRANDLEY",
-               "approval2":"PBRANDLEY",
-               "approval3":"PBRANDLEY",
-               "approval4":"PBRANDLEY NEASLEY",
-               "approval5":"MABRAMO",
-               "approval6":"MABRAMO",
-               "approval7":"MABRAMO",
-               "approval8":"SPOFTAK",
-               "children":[
-                  {
-                     "name":"Administration",
-                     "level":"6",
-                     "deptno":"811002"
-                  },
-                  {
-                     "name":"Accounts Payable",
-                     "level":"6",
-                     "deptno":"821002"
-                  },
-                  {
-                     "name":"Accounting",
-                     "level":"6",
-                     "deptno":"822002"
-                  },
-                  {
-                     "name":"Payroll",
-                     "level":"6",
-                     "deptno":"823002"
-                  },
-                  {
-                     "name":"Finance Capital",
-                     "level":"6",
-                     "deptno":"832002"
-                  },
-                  {
-                     "name":"Finance Cash",
-                     "level":"6",
-                     "deptno":"833002"
-                  },
-                  {
-                     "name":"Finance Insurance",
-                     "level":"6",
-                     "deptno":"834002"
-                  },
-                  {
-                     "name":"Controller",
-                     "level":"5",
-                     "deptno":"805202"
-                  },
-                  {
-                     "name":"Balance Sheet",
-                     "level":"5",
-                     "deptno":"841002"
-                  },
-                  {
-                     "name":"Treasurer",
-                     "level":"5",
-                     "deptno":"805302"
-                  }
-               ]
-            },
-            {
-               "name":"Vendor Management",
-               "level":"4",
-               "deptno":"804000",
-               "children":[
-                  {
-                     "name":"Vendor Management",
-                     "level":"5",
-                     "deptno":"805402"
-                  },
-                  {
-                     "name":"Money Room",
-                     "level":"5",
-                     "deptno":"262077"
-                  }
-               ]
-            },
-            {
-               "name":"General Activities",
-               "level":"4",
-               "deptno":"860000",
-               "approval1":"MRUNKEL",
-               "approval2":"MRUNKEL",
-               "approval3":"MRUNKEL",
-               "approval4":"MRUNKEL",
-               "approval5":"MABRAMO",
-               "approval6":"MABRAMO",
-               "approval7":"MABRAMO",
-               "approval8":"SPOFTAK",
-               "children":[
-                  {
-                     "name":"General Activities",
-                     "level":"5",
-                     "deptno":"861002"
-                  },
-                  {
-                     "name":"General Activities Everett Mn",
-                     "level":"5",
-                     "deptno":"861107"
-                  },
-                  {
-                     "name":"General Activities Everett Str",
-                     "level":"5",
-                     "deptno":"861108"
-                  }
-               ]
-            },
-            {
-               "name":"Own Source Revenue",
-               "level":"4",
-               "deptno":"172000",
-               "approval1":"EMROWE",
-               "approval2":"EMROWE",
-               "approval3":"EMROWE",
-               "approval4":"EMROWE",
-               "approval5":"EMROWE",
-               "approval6":"EMROWE",
-               "approval7":"MABRAMO",
-               "approval8":"SPOFTAK",
-               "children":[
-                  {
-                     "name":"Own Source Revenue",
-                     "level":"5",
-                     "deptno":"172002"
-                  }
-               ]
-            },
-            {
-               "name":"Interagency",
-               "level":"4",
-               "deptno":"170000",
-               "children":[
-                  {
-                     "name":"Interagency",
-                     "level":"5",
-                     "deptno":"171002"
-                  }
-               ]
-            }
-         ]
-      },
-      {
-         "name":"Human Resources & Occupational Health Services",
-         "level":"4",
-         "deptno":"X",
-         "children":[
+      
             {
                "name":"Health and Welfare Fund",
                "level":"5",
@@ -680,8 +676,8 @@
                   }
                ]
             }
-         ]
-      },
+         
+      ,
       {
          "name":"Procurement and Logistics",
          "level":"4",
