@@ -11,10 +11,10 @@
     <body>
         <script src="//d3js.org/d3.v3.min.js"></script>
         <div id="option">
-            
+
             <h1>MBTA Organization Chart</h1>
-            <p>Last Updated: 9/14/2017 11:09am</p>
-             <input name="updateButton" 
+            <p>Last Updated: 9/14/2017 12:39pm</p>
+            <input name="updateButton" 
                    type="button" 
                    class = "btn"
                    value="View Operating" 
@@ -96,9 +96,22 @@
 
                 nodeEnter.append("circle")
                     .attr("r", 1e-6)
-                    .style("fill", function(d) { return d._children ? "f2cd60" : "#fff"; });
+                    .style("fill", function(d) {
+                    //if(d.level=""){
+                    //    return d._children ? "#00ffffff";
+                    //}
+                    //else{
+                        return d._children ? "f2cd60" : "#fff"; }
+                           //}
+                          )
+                    .style("stroke", function(d){
+                    if(d.level = ""){
+                        console.log("BLANK");
+                        return "#00ffffff";
+                    }
+                });
 
-                nodeEnter.append("text")
+                           nodeEnter.append("text")
                     .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
                     .attr("dy", ".35em")
                     .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
@@ -115,11 +128,11 @@
 
                 nodeUpdate.select("circle")
                     .attr("r", 4.5)
-                    .style("fill", function(d) { if(d.level == "2") return "#7058fc";
-                                                if(d.level == "3") return "#ff0000";
-                                                if(d.level == "4") return "#ff8356";
-                                                if(d.level == "5") return "#ffcd44";
-                                               if(d.level == "6") return "#ffedb2";
+                    .style("fill", function(d) { if(d.level == "2") return "red";
+                                                if(d.level == "3") return "orange";
+                                                if(d.level == "4") return "green";
+                                                if(d.level == "5") return "blue";
+                                                if(d.level == "6") return "purple";
                                                });
 
                 nodeUpdate.select("text")
@@ -189,14 +202,14 @@
 
             function mousemove(d) {
                 if(d.approval1 != undefined){
-                div.html(d.deptno+ "<br/>" + "Level 1: " + d.approval1 + "<br/>" + "Level 2: " + d.approval2 + "<br/>" + "Level 3: " + d.approval3+ "<br/>" + "Level 4: " + d.approval4+ "<br/>" + "Level 5: " + d.approval5+ "<br/>" + "Level 6: " + d.approval6+ "<br/>" + "Level 7: " + d.approval7+ "<br/>" + "Level 8: " + d.approval8)
-                    .style("left", (d3.event.pageX ) + "px")
-                    .style("top", (d3.event.pageY) + "px");
+                    div.html(d.deptno+ "<br/>" + "Level 1: " + d.approval1 + "<br/>" + "Level 2: " + d.approval2 + "<br/>" + "Level 3: " + d.approval3+ "<br/>" + "Level 4: " + d.approval4+ "<br/>" + "Level 5: " + d.approval5+ "<br/>" + "Level 6: " + d.approval6+ "<br/>" + "Level 7: " + d.approval7+ "<br/>" + "Level 8: " + d.approval8)
+                        .style("left", (d3.event.pageX ) + "px")
+                        .style("top", (d3.event.pageY) + "px");
                 }
                 else{
                     div.html(d.deptno+"<br/> Approves at a higher level")
-                    .style("left", (d3.event.pageX ) + "px")
-                    .style("top", (d3.event.pageY) + "px");
+                        .style("left", (d3.event.pageX ) + "px")
+                        .style("top", (d3.event.pageY) + "px");
                 }
             }
 

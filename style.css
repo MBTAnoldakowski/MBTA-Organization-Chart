@@ -76,7 +76,7 @@ div.tooltip {
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
-    background: #7058fc;
+    background: red;
     margin-left: 25px;
     margin-right: 10px;
     float: left;
@@ -87,7 +87,7 @@ div.tooltip {
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
-    background: #ff0000;
+    background: orange;
     margin-left: 25px;
     margin-right: 10px;
     float: left;
@@ -98,7 +98,7 @@ div.tooltip {
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
-    background: #ff8356;
+    background: green;
     margin-left: 25px;
     margin-right: 10px;
     float: left;
@@ -109,7 +109,7 @@ div.tooltip {
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
-    background: #ffcd44;
+    background: blue;
     margin-left: 25px;
     margin-right: 10px;
     float: left;
@@ -120,7 +120,7 @@ div.tooltip {
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
-    background: #ffedb2;
+    background: purple;
     margin-left: 25px;
     margin-right: 10px;
     float: left;

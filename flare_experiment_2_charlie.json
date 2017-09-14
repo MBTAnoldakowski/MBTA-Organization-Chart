@@ -13,7 +13,7 @@
     "children":[
         {
             "name":"Chief Financial Officer",
-            "level":"3",
+            "level":"4",
             "deptno":"640000",
             "approval1":"MRUNKEL",
             "approval2":"MRUNKEL",
@@ -58,9 +58,6 @@
                     "approval7":"MABRAMO",
                     "approval8":"SPOFTAK",
                     "children":[
-                        {"name":"",
-                "level":"",
-                "children":[
                         {
                             "name":"Administration",
                             "level":"5",
@@ -75,7 +72,7 @@
                             "name":"Capital",
                             "level":"5",
                             "deptno":"633002"
-                        }]}
+                        }
                     ]
                 },
                 {
@@ -93,9 +90,7 @@
                     "children":[
                         {"name":"",
          "level":"",
-         "children":[{"name":"",
-                "level":"",
-                "children":[
+         "children":[
                         {
                             "name":"Administration",
                             "level":"6",
@@ -130,10 +125,7 @@
                             "name":"Finance Insurance",
                             "level":"6",
                             "deptno":"834002"
-                        }]}]},
-                        {"name":"",
-                "level":"",
-                "children":[
+                        }]},
                         {
                             "name":"Controller",
                             "level":"5",
@@ -148,7 +140,7 @@
                             "name":"Treasurer",
                             "level":"5",
                             "deptno":"805302"
-                        }]}
+                        }
                     ]
                 },
                 {
@@ -156,9 +148,7 @@
                     "level":"4",
                     "deptno":"804000",
                     "children":[
-                        {"name":"",
-                "level":"",
-                "children":[{
+                        {
                             "name":"Vendor Management",
                             "level":"5",
                             "deptno":"805402"
@@ -167,7 +157,7 @@
                             "name":"Money Room",
                             "level":"5",
                             "deptno":"262077"
-                        }]}
+                        }
                     ]
                 },
                 {
@@ -183,9 +173,6 @@
                     "approval7":"MABRAMO",
                     "approval8":"SPOFTAK",
                     "children":[
-                        {"name":"",
-                "level":"",
-                "children":[
                         {
                             "name":"General Activities",
                             "level":"5",
@@ -200,7 +187,7 @@
                             "name":"General Activities Everett Str",
                             "level":"5",
                             "deptno":"861108"
-                        }]}
+                        }
                     ]
                 },
                 {
@@ -216,14 +203,11 @@
                     "approval7":"MABRAMO",
                     "approval8":"SPOFTAK",
                     "children":[
-                        {"name":"",
-                "level":"",
-                "children":[
                         {
                             "name":"Own Source Revenue",
                             "level":"5",
                             "deptno":"172002"
-                        }]}
+                        }
                     ]
                 },
                 {
@@ -231,20 +215,16 @@
                     "level":"4",
                     "deptno":"170000",
                     "children":[
-                        {"name":"",
-                "level":"",
-                "children":[
                         {
-                            
                             "name":"Interagency",
                             "level":"5",
                             "deptno":"171002"
-                        }]}
+                        }
                     ]
                 }
             ]
         },
-        {"name":"Office of the General Manager",
+        {"name":"",
          "level":"",
          "children":[
              {
@@ -260,13 +240,11 @@
                  "approval7":"MABRAMO",
                  "approval8":"SPOFTAK",
                  "children":[
-                     {"name":"",
-                "level":"",
-                "children":[{                    
+                     {
                          "name":"System-wide Accessibility",
                          "level":"5",
                          "deptno":"102002"
-                     }]}
+                     }
                  ]
              },
              {
@@ -282,28 +260,23 @@
                  "approval7":"MABRAMO",
                  "approval8":"SPOFTAK",
                  "children":[
-                     {"name":"",
-                "level":"",
-                "children":[
                      {
                          "name":"Law",
                          "level":"5",
                          "deptno":"161002"
-                     }]}
+                     }
                  ]
              },
              {
                  "name":"Public Affairs",
                  "level":"4",
                  "deptno":"115000",
-                 "children":[{"name":"",
-                "level":"",
-                "children":[
+                 "children":[
                      {
                          "name":"Public Affairs",
                          "level":"5",
                          "deptno":"112002"
-                     }]}
+                     }
                  ]
              },
              {
@@ -311,14 +284,11 @@
                  "level":"4",
                  "deptno":"140000",
                  "children":[
-                     {"name":"",
-                "level":"",
-                "children":[
                      {
                          "name":"Weather Costs",
                          "level":"5",
                          "deptno":"141002"
-                     }]}
+                     }
                  ]
              },
              {
@@ -334,14 +304,11 @@
                  "approval7":"MABRAMO",
                  "approval8":"SPOFTAK",
                  "children":[
-                     {"name":"",
-                "level":"",
-                "children":[
                      {
                          "name":"Real Estate",
                          "level":"5",
                          "deptno":"331002"
-                     }]}
+                     }
                  ]
              },
              {
@@ -357,9 +324,6 @@
                  "approval7":"MABRAMO",
                  "approval8":"SPOFTAK",
                  "children":[
-                     {"name":"",
-                "level":"",
-                "children":[
                      {
                          "name":"EEO/AA Administration",
                          "level":"5",
@@ -379,7 +343,7 @@
                          "name":"Training",
                          "level":"5",
                          "deptno":"134002"
-                     }]}
+                     }
                  ]
              },
              {
@@ -395,9 +359,6 @@
                  "approval7":"MABRAMO",
                  "approval8":"SPOFTAK",
                  "children":[
-                     {"name":"",
-                "level":"",
-                "children":[
                      {
                          "name":"AFC 2.0",
                          "level":"5",
@@ -412,7 +373,7 @@
                          "name":"Customer Technology Division",
                          "level":"5",
                          "deptno":"118002"
-                     }]}
+                     }
                  ]
              },
              {
@@ -428,28 +389,23 @@
                  "approval7":"MABRAMO",
                  "approval8":"SPOFTAK",
                  "children":[
-                     {"name":"",
-                "level":"",
-                "children":[
                      {
                          "name":"OPMI",
                          "level":"5",
                          "deptno":"621002"
-                     }]}
+                     }
                  ]
              },
              {
                  "name":"General Manager",
                  "level":"4",
                  "deptno":"100000",
-                 "children":[{"name":"",
-                "level":"",
-                "children":[
+                 "children":[
                      {
                          "name":"General Manager",
                          "level":"5",
                          "deptno":"101002"
-                     }]}
+                     }
                  ]
              },
              {
@@ -457,14 +413,11 @@
                  "level":"4",
                  "deptno":"730000",
                  "children":[
-                     {"name":"",
-                "level":"",
-                "children":[
                      {
                          "name":"Labor Relations",
                          "level":"5",
                          "deptno":"731002"
-                     }]}
+                     }
                  ]
              },
              {
@@ -480,28 +433,23 @@
                  "approval7":"MABRAMO",
                  "approval8":"SPOFTAK",
                  "children":[
-                     {"name":"",
-                "level":"",
-                "children":[
                      {
                          "name":"Safety Administration",
                          "level":"5",
                          "deptno":"241080"
-                     }]}
+                     }
                  ]
              },
              {
                  "name":"Transit Police",
                  "level":"4",
                  "deptno":"120000",
-                 "children":[{"name":"",
-                "level":"",
-                "children":[
+                 "children":[
                      {
                          "name":"Transit Police",
                          "level":"5",
                          "deptno":"121012"
-                     }]}
+                     }
                  ]
              },
              {
@@ -517,9 +465,6 @@
                  "approval7":"MABRAMO",
                  "approval8":"SPOFTAK",
                  "children":[
-                     {"name":"",
-                "level":"",
-                "children":[
                      {
                          "name":"Utilities",
                          "level":"5",
@@ -529,7 +474,7 @@
                          "name":"Environmental Affairs",
                          "level":"5",
                          "deptno":"156002"
-                     }]}
+                     }
                  ]
              },
              {
@@ -550,9 +495,6 @@
                          "level":"4",
                          "deptno":"528103"
                      },
-                     {"name":"",
-                "level":"",
-                "children":[
                      {
                          "name":"Customer Expeience Div Marketing",
                          "level":"5",
@@ -562,7 +504,7 @@
                          "name":"Customer Service Center",
                          "level":"5",
                          "deptno":"275008"
-                     }]}
+                     }
                  ]
              },
              {
@@ -578,9 +520,6 @@
                  "approval7":"MABRAMO",
                  "approval8":"SPOFTAK",
                  "children":[
-                     {"name":"",
-                "level":"",
-                "children":[
                      {
                          "name":"ITD Enterprise",
                          "level":"5",
@@ -595,7 +534,7 @@
                          "name":"ITD Development",
                          "level":"5",
                          "deptno":"435002"
-                     }]}
+                     }
                  ]
              },
              {
@@ -603,9 +542,6 @@
                  "level":"4",
                  "deptno":"320000",
                  "children":[
-                     {"name":"",
-                "level":"",
-                "children":[
                      {
                          "name":"Captial Project Oversight PP",
                          "level":"5",
@@ -620,7 +556,7 @@
                          "name":"Captial Project Oversight SuSt",
                          "level":"5",
                          "deptno":"322124"
-                     }]}
+                     }
                  ]
              },
              {
@@ -636,9 +572,6 @@
                  "approval7":"MABRAMO",
                  "approval8":"SPOFTAK",
                  "children":[
-                     {"name":"",
-                "level":"",
-                "children":[
                      {
                          "name":"Capital Delivery Administration",
                          "level":"5",
@@ -651,7 +584,7 @@
                          "approval6":"BLARKIN",
                          "approval7":"MABRAMO",
                          "approval8":"SPOFTAK"
-                     }]}
+                     }
                  ]
              },
              {
@@ -667,26 +600,21 @@
                  "approval7":"MABRAMO",
                  "approval8":"SPOFTAK",
                  "children":[
-                     {"name":"",
-                "level":"",
-                "children":[
                      {
                          "name":"Office of Transportation Access",
                          "level":"5",
                          "deptno":"291002"
-                     }]}
+                     }
                  ]
              },
              {"name":"",
               "level":"",
-              "children":[{"name":"",
-                "level":"",
-                "children":[
+              "children":[
                   {
                       "name":"Health and Welfare Fund",
                       "level":"5",
                       "deptno":"752002"
-                  }]}]},
+                  }]},
              {
                  "name":"Human Resources",
                  "level":"4",
@@ -700,9 +628,6 @@
                  "approval7":"MABRAMO",
                  "approval8":"SPOFTAK",
                  "children":[
-                     {"name":"",
-                "level":"",
-                "children":[
                      {
                          "name":"Employment and Training",
                          "level":"5",
@@ -712,21 +637,19 @@
                          "name":"Benefits and Comp",
                          "level":"5",
                          "deptno":"751002"
-                     }]}
+                     }
                  ]
              },
              {
                  "name":"MassDOT U/Employee Relations",
                  "level":"4",
                  "deptno":"710000",
-                 "children":[{"name":"",
-                "level":"",
-                "children":[
+                 "children":[
                      {
                          "name":"MassDOT U/Employee Relations",
                          "level":"5",
                          "deptno":"711002"
-                     }]}
+                     }
                  ]
              },
              {
@@ -742,9 +665,6 @@
                  "approval7":"MABRAMO",
                  "approval8":"SPOFTAK",
                  "children":[
-                     {"name":"",
-                "level":"",
-                "children":[
                      {
                          "name":"Worker's Compensation",
                          "level":"5",
@@ -764,10 +684,10 @@
                          "deptno":"761002"
                      },
                      {
-                         "name":"Employee Counseling/Wellness",
+                         "name":"Employee Counseling/Welness",
                          "level":"5",
                          "deptno":"781002"
-                     }]}
+                     }
                  ]
              }
 
@@ -785,9 +705,6 @@
                  "approval7":"MABRAMO",
                  "approval8":"SPOFTAK",
                  "children":[
-                     {"name":"",
-                "level":"",
-                "children":[
                      {
                          "name":"Administration",
                          "level":"5",
@@ -807,7 +724,7 @@
                          "name":"Store 10PP",
                          "level":"5",
                          "deptno":"443002"
-                     }]}
+                     }
                  ]
              }]}
     ]
