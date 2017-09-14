@@ -85,7 +85,9 @@
                     "approval7":"MABRAMO",
                     "approval8":"SPOFTAK",
                     "children":[
-                        
+                        {"name":"",
+         "level":"",
+         "children":[
                         {
                             "name":"Administration",
                             "level":"6",
@@ -120,7 +122,7 @@
                             "name":"Finance Insurance",
                             "level":"6",
                             "deptno":"834002"
-                        },
+                        }]},
                         {
                             "name":"Controller",
                             "level":"5",
