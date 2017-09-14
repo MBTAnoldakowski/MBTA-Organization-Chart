@@ -13,7 +13,7 @@
         <div id="option">
 
             <h1>MBTA Organization Chart</h1>
-            <p>Last Updated: 9/14/2017 3:00pm</p>
+            <p>Last Updated: 9/14/2017 3:20pm</p>
             <input name="updateButton" 
                    type="button" 
                    class = "btn"
@@ -197,6 +197,9 @@
                     div.html(d.deptno+ "<br/>" + "Level 1: " + d.approval1 + "<br/>" + "Level 2: " + d.approval2 + "<br/>" + "Level 3: " + d.approval3+ "<br/>" + "Level 4: " + d.approval4+ "<br/>" + "Level 5: " + d.approval5+ "<br/>" + "Level 6: " + d.approval6+ "<br/>" + "Level 7: " + d.approval7+ "<br/>" + "Level 8: " + d.approval8)
                         .style("left", (d3.event.pageX ) + "px")
                         .style("top", (d3.event.pageY) + "px");
+                }
+                if(d.level == "" && d.deptno == ""){
+                    div.html("<br/>")
                 }
                 else{
                     div.html(d.deptno+"<br/> Approves at a higher level")
