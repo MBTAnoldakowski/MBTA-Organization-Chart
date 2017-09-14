@@ -24,13 +24,11 @@
          "approval7":"MABRAMO",
          "approval8":"SPOFTAK",
          "children":[
-             
             {
                "name":"Bus Maintenance",
                "level":"4",
                "deptno":"221000",
                "children":[
-                   
                   {
                      "name":"Chief Mechanical Officer - Water Street",
                      "level":"5",
@@ -100,13 +98,13 @@
                      "level":"5",
                      "deptno":"225039"
                   }
-               ]},
+               ]
+            },
             {
                "name":"Bus Transportation",
                "level":"4",
                "deptno":"224000",
                "children":[
-                   
                   {
                      "name":"Administration",
                      "level":"5",
@@ -156,13 +154,12 @@
             }
          ]
       },
-      
       {
          "name":"Engineering & Maintenance",
          "level":"3",
          "deptno":"189000",
          "children":[
-             {
+            {
                "name":"Transit Facilities Maintenance",
                "level":"4",
                "deptno":"673000",
@@ -175,7 +172,6 @@
                "approval7":"MABRAMO",
                "approval8":"SPOFTAK",
                "children":[
-                   
                   {
                      "name":"Administration",
                      "level":"5",
@@ -246,7 +242,6 @@
                "approval7":"MABRAMO",
                "approval8":"SPOFTAK",
                "children":[
-                   
                   {
                      "name":"Administration",
                      "level":"5",
@@ -264,7 +259,6 @@
                   }
                ]
             },
-        
             {
                "name":"Maintenance of Way",
                "level":"4",
@@ -278,7 +272,6 @@
                "approval7":"MABRAMO",
                "approval8":"SPOFTAK",
                "children":[
-                   
                   {
                      "name":"Surface Light Rail",
                      "level":"5",
@@ -295,7 +288,8 @@
                      "deptno":"152005"
                   }
                ]
-            },{
+            },
+            {
                "name":"Power Systems Maintenance",
                "level":"4",
                "deptno":"674000",
@@ -308,7 +302,6 @@
                "approval7":"MABRAMO",
                "approval8":"SPOFTAK",
                "children":[
-                   
                   {
                      "name":"Power Systems Maintenance",
                      "level":"5",
@@ -339,7 +332,6 @@
                "approval7":"MABRAMO",
                "approval8":"SPOFTAK",
                "children":[
-                   
                   {
                      "name":"Capital & Maintenance Planning/Scheduling",
                      "level":"5",
@@ -357,43 +349,46 @@
                   }
                ]
             },
-             {"name":"",
-             "level":"",
-             "children":[
-                 
             {
-               "name":"Systems Engineering Support QA",
-               "level":"5",
-               "deptno":"237111"
-            },
-            {
-               "name":"Systems Engineering Support Everett",
-               "level":"5",
-               "deptno":"237107"
-            },
-            {
-               "name":"Systems Engineering Support High Street",
-               "level":"5",
-               "deptno":"237008"
-            }]}
-         ]
-      },
-       {"name":"",
-       "level":"",
-       "children":[
-       {
-         "name":"Chief Operating Officer",
-         "level":"4",
-         "deptno":"205000",
-         "children":[
-            {
-               "name":"Chief Operating Officer",
-               "level":"5",
-               "deptno":"206008"
+               "name":"",
+               "level":"",
+               "children":[
+                  {
+                     "name":"Systems Engineering Support QA",
+                     "level":"5",
+                     "deptno":"237111"
+                  },
+                  {
+                     "name":"Systems Engineering Support Everett",
+                     "level":"5",
+                     "deptno":"237107"
+                  },
+                  {
+                     "name":"Systems Engineering Support High Street",
+                     "level":"5",
+                     "deptno":"237008"
+                  }
+               ]
             }
          ]
       },
-           {
+      {
+         "name":"",
+         "level":"",
+         "children":[
+            {
+               "name":"Chief Operating Officer",
+               "level":"4",
+               "deptno":"205000",
+               "children":[
+                  {
+                     "name":"Chief Operating Officer",
+                     "level":"5",
+                     "deptno":"206008"
+                  }
+               ]
+            },
+            {
                "name":"Operations Office of Administration",
                "level":"4",
                "deptno":"208000",
@@ -405,75 +400,74 @@
                   }
                ]
             },
-           {
-         "name":"Security",
-         "level":"4",
-         "deptno":"280000",
-         "approval1":"RCREEDON",
-         "approval2":"RCREEDON",
-         "approval3":"RCREEDON",
-         "approval4":"RCREEDON",
-         "approval5":"MABRAMO",
-         "approval6":"MABRAMO",
-         "approval7":"MABRAMO",
-         "approval8":"SPOFTAK",
-         "children":[
-             
             {
-               "name":"Security Department",
-               "level":"5",
-               "deptno":"282008"
+               "name":"Security",
+               "level":"4",
+               "deptno":"280000",
+               "approval1":"RCREEDON",
+               "approval2":"RCREEDON",
+               "approval3":"RCREEDON",
+               "approval4":"RCREEDON",
+               "approval5":"MABRAMO",
+               "approval6":"MABRAMO",
+               "approval7":"MABRAMO",
+               "approval8":"SPOFTAK",
+               "children":[
+                  {
+                     "name":"Security Department",
+                     "level":"5",
+                     "deptno":"282008"
+                  }
+               ]
+            },
+            {
+               "name":"Operation Planning & Scheduling",
+               "level":"4",
+               "deptno":"795000",
+               "approval1":"RGUPTILL",
+               "approval2":"HHUME AHARRINGTON",
+               "approval3":"MDULLEA",
+               "approval4":"MDULLEA",
+               "approval5":"JCASEY2",
+               "approval6":"JGONNEVILLE",
+               "approval7":"MABRAMO",
+               "approval8":"SPOFTAK",
+               "children":[
+                  {
+                     "name":"Suburban Bus",
+                     "level":"5",
+                     "deptno":"203032"
+                  },
+                  {
+                     "name":"Passenger Services",
+                     "level":"5",
+                     "deptno":"272008"
+                  },
+                  {
+                     "name":"Private Carrier Bus",
+                     "level":"5",
+                     "deptno":"203008"
+                  },
+                  {
+                     "name":"Private Carrier Bus Interdistrict",
+                     "level":"5",
+                     "deptno":"203034"
+                  },
+                  {
+                     "name":"Service Planning",
+                     "level":"5",
+                     "deptno":"274008"
+                  },
+                  {
+                     "name":"Planning & Schedules",
+                     "level":"5",
+                     "deptno":"273008"
+                  }
+               ]
             }
          ]
       },
       {
-         "name":"Operation Planning & Scheduling",
-         "level":"4",
-         "deptno":"795000",
-         "approval1":"RGUPTILL",
-         "approval2":"HHUME AHARRINGTON",
-         "approval3":"MDULLEA",
-         "approval4":"MDULLEA",
-         "approval5":"JCASEY2",
-         "approval6":"JGONNEVILLE",
-         "approval7":"MABRAMO",
-         "approval8":"SPOFTAK",
-         "children":[
-             
-            {
-               "name":"Suburban Bus",
-               "level":"5",
-               "deptno":"203032"
-            },
-            {
-               "name":"Passenger Services",
-               "level":"5",
-               "deptno":"272008"
-            },
-            {
-               "name":"Private Carrier Bus",
-               "level":"5",
-               "deptno":"203008"
-            },
-            {
-               "name":"Private Carrier Bus Interdistrict",
-               "level":"5",
-               "deptno":"203034"
-            },
-            {
-               "name":"Service Planning",
-               "level":"5",
-               "deptno":"274008"
-            },
-            {
-               "name":"Planning & Schedules",
-               "level":"5",
-               "deptno":"273008"
-            }
-         ]
-      }
-      ]},
-       {
          "name":"Rail Operations",
          "level":"3",
          "deptno":"210000",
