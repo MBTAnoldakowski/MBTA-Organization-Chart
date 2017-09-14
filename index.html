@@ -13,7 +13,7 @@
         <div id="option">
 
             <h1>MBTA Organization Chart</h1>
-            <p>Last Updated: 9/14/2017 3:20pm</p>
+            <p>Last Updated: 9/14/2017 3:41pm</p>
             <input name="updateButton" 
                    type="button" 
                    class = "btn"
@@ -97,7 +97,7 @@
                 nodeEnter.append("circle")
                     .attr("r", 1e-6);
 
-                 nodeEnter.append("text")
+                nodeEnter.append("text")
                     .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
                     .attr("dy", ".35em")
                     .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
@@ -121,7 +121,7 @@
                                                 if(d.level == "6") return "purple";
                                                 if(d.name == "") return "#ffffff";
                                                })
-                .style("opacity", function(d){
+                    .style("opacity", function(d){
                     if(d.level == ""){
                         return 0;
                     }
@@ -255,6 +255,21 @@
                 });
 
             }
+            function expand(d){   
+                var children = (d.children)?d.children:d._children;
+                if (d._children) {        
+                    d.children = d._children;
+                    d._children = null;       
+                }
+                if(children)
+                    children.forEach(expand);
+            }
+
+            function expandAll(){
+                expand(root); 
+                update(root);
+            }
+
         </script>
         <div id = "legend">
             <h3 id = "ltitle">Legend</h3>
@@ -265,6 +280,14 @@
             <div id = "level5circle"></div> <p>Level 5</p>
             <div id = "level6circle"></div> <p>Level 6</p>
 
+        </div>
+        <div id = "expandB">
+        <input name="expandButton" 
+               type="button" 
+               class="btn"
+               id="expandB"
+               value="Expand All" 
+               onclick="expandAll()" />
         </div>
     </body>
 </html>

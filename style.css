@@ -34,6 +34,13 @@ div.tooltip {
     border-radius: 8px;
     pointer-events: none;
 }
+#expandB{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
 #option {
     text-align: center;
     width:900px; 
