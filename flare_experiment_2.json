@@ -215,6 +215,9 @@
             }
          ]
       },
+       {"name":"",
+       "level":"",
+       "children":[
       {
          "name":"System-wide Accessibility",
          "level":"4",
@@ -712,6 +715,6 @@
                "deptno":"443002"
             }
          ]
-      }
+      }]}
    ]
 }
