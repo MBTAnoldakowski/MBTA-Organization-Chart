@@ -147,23 +147,7 @@
                   }
                ]
             },
-            {
-               "name":"Vendor Management",
-               "level":"4",
-               "deptno":"804000",
-               "children":[
-                  {
-                     "name":"Money Room",
-                     "level":"5",
-                     "deptno":"262077"
-                  },
-                  {
-                     "name":"Vendor Management",
-                     "level":"5",
-                     "deptno":"805402"
-                  }
-               ]
-            },
+            
             {
                "name":"General Activities",
                "level":"4",
@@ -731,6 +715,23 @@
                      "name":"Store 10PP",
                      "level":"5",
                      "deptno":"443002"
+                  }
+               ]
+            },
+             {
+               "name":"Vendor Management",
+               "level":"4",
+               "deptno":"804000",
+               "children":[
+                  {
+                     "name":"Money Room",
+                     "level":"5",
+                     "deptno":"262077"
+                  },
+                  {
+                     "name":"Vendor Management",
+                     "level":"5",
+                     "deptno":"805402"
                   }
                ]
             }
