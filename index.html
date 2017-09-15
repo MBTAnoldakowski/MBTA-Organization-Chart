@@ -13,7 +13,7 @@
         <div id="option">
 
             <h1>MBTA Organization Chart</h1>
-            <p>Last Updated: 9/14/2017 4:35pm</p>
+            <p>Last Updated: 9/15/2017 10:56Am</p>
             <input name="updateButton" 
                    type="button" 
                    class = "btn"
@@ -54,7 +54,7 @@
             .attr("class", "tooltip")
             .style("opacity", 1e-6);
 
-            d3.json("flare_experiment_2.json", function(error, flare) {
+            d3.json("flare_experiment.json", function(error, flare) {
                 if (error) throw error;
 
                 root = flare;
@@ -82,7 +82,7 @@
                     links = tree.links(nodes);
 
                 // Normalize for fixed-depth.
-                nodes.forEach(function(d) { d.y = d.depth * 220; }); //180
+                nodes.forEach(function(d) { d.y = d.depth * 250; }); //180
 
                 // Update the nodes…
                 var node = svg.selectAll("g.node")
